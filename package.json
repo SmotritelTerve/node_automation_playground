@@ -1,0 +1,24 @@
+{
+  "name": "node_automation_playground",
+  "version": "1.0.0",
+  "description": "Automation Playground with Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/e2e/*.test.js --timeout 30000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmotritelTerve/node_automation_playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SmotritelTerve/node_automation_playground/issues"
+  },
+  "homepage": "https://github.com/SmotritelTerve/node_automation_playground#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
